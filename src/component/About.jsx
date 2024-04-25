@@ -10,7 +10,7 @@ const About = () => {
 
     return (
         <div>
-            <h1>THIS IS AN EXAMPLE OF ROUTE DOMM</h1>
+            <h1>THIS IS AN EXAMPLE OF ROUTE DOM</h1>
             <button className="btn btn-success" onClick={goHome}>
             Home
             </button>
