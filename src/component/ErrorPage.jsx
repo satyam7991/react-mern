@@ -8,5 +8,6 @@ const ErrorPage = () => {
     </div>
   )
 }
+//THIS IS ERROR PAGE
 
 export default ErrorPage
