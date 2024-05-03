@@ -16,6 +16,6 @@ const Counter = (props) => {
         </div>
     )
 }
-//this is counter page
+//this is counter
 
 export default Counter;
