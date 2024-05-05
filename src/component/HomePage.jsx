@@ -7,6 +7,6 @@ const HomePage = () => {
         </div>
   )
 }
-//THIS IS HOME PAGE
+
 
 export default HomePage
