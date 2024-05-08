@@ -20,6 +20,6 @@ const Card = (props) => {
      </div>
      )
 };
-//FAKE API
+
 
 export default Card
