@@ -1,4 +1,5 @@
 import React from 'react'
+import { useEffect, useState } from 'react';
 
 const UseEffect = () => {
     const [name,setName] = useState("kiet");
@@ -9,7 +10,7 @@ const UseEffect = () => {
 
     }
     const changeClass = () => {
-     setCourse("mca");
+     setCourse("B-TECH");
     }
     useEffect(() => {
         console.log("use effect hook");
@@ -21,9 +22,9 @@ const UseEffect = () => {
     <div>
         <h1>UseEffect</h1>
         <h2>name:{name}</h2>
-        <button className="btn btn-danger" onclick={changeName}>change name</button>
+        <button className="btn btn-danger" onClick={changeName}>change name</button>
         <h2>course:{course}</h2>
-        <button className="btn btn-danger" onclick={changeClass}> change class</button>
+        <button className="btn btn-danger" onClick={changeClass}> change class</button>
         </div>
   )
 }

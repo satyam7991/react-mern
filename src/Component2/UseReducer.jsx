@@ -23,7 +23,7 @@ const UseReducer = () => {
              <h2 style={{color:color}}>MCA REACT CLASSES</h2>
              <button className="btn btn-primary m-2" onClick={()=>dispatch("red")}>RED</button>
              <button className="btn btn-primary m-2"  onClick={()=>dispatch("green")}>green</button>
-             <button className="btn btn-primary m-2"  onClick={()=>dispatch("blue")}>blur</button>
+             <button className="btn btn-primary m-2"  onClick={()=>dispatch("blue")}>blue</button>
 
     </div>
   )
