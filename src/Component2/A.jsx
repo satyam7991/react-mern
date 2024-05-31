@@ -1,10 +1,15 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import B from './B'
+import { nameContext } from './UseContext';
 
-const A = () => {
+function A() {
+  const Name=useContext(nameContext)
+
   return (
     <div>
-        A
-        </div>
+      <h2 className='text-center bg-danger-subtle'>A componet</h2>
+      <B Name={Name}/>
+    </div>
   )
 }
 

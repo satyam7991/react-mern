@@ -24,7 +24,7 @@ const Languages = () => {
   ];
   var check=false;
 return (
-  <div>
+  <div className='bg-primary-subtle'>
       <h1 className={check?"bg-warning":"bg-success text-white"}>{check ?"Best Programing Languages:" : "Top 5 programing language"}</h1>
       <ul>
           {lang.map((item)=>(

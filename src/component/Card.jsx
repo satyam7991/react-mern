@@ -3,7 +3,7 @@ import React from 'react'
 const Card = (props) => {
         const { title , description , thumbnail, price , brand } = props;
     return (
-        <div className='d-flex m-1'>
+        <div className='d-flex m-1 bg-primary-subtle'>
                 <div className="card" style={{ width: "18rem" }}>
                     <img className="card-img-top overflow-hidden" src={thumbnail} alt="Card image cap" />
                     <div className="card-body">

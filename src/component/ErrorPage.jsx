@@ -2,7 +2,7 @@ import React from 'react'
 
 const ErrorPage = () => {
   return (
-    <div className='vh-100 d-flex justify-content-center align-items-center'>
+    <div className='vh-100 d-flex justify-content-center align-items-center bg-primary-subtle'>
         
         <h1>PAGE NOT FOUND ERROR 404 .....</h1>
     </div>

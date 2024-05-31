@@ -1,11 +1,16 @@
 import React from 'react'
-
-const UseContext = () => {
+import A from './A'
+export const nameContext= React.createContext();
+function UseContext() {
   return (
-    <div>
-        UseContext
-        </div>
+    <>
+        <h1 className='text-center bg-danger-subtle'>USe Context Hook</h1>
+        <nameContext.Provider value={["kiet","satyam"]}>
+    <A/>
+            </nameContext.Provider>   
+      
+ </>
   )
 }
 
-export default UseContext;
+export default UseContext

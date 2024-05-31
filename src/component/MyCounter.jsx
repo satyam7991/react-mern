@@ -40,7 +40,7 @@ const MyCounter = () => {
 
     }
     return (
-        <div className='container mt-3'>
+        <div className='container mt-3 bg-primary-subtle'>
             <div>
                 <button className='btn btn-success' onClick={reset}>Reset</button>
             </div>

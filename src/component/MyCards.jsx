@@ -10,7 +10,7 @@ useEffect(() => {
             setProducts(data.products);
         });
 }, []); 
-  return <div className="d-flex justify-content-between flex-wrap">
+  return <div className="d-flex justify-content-between flex-wrap bg-primary-subtle">
          {products.map(product =>
         <Cards
            title = {product.title}

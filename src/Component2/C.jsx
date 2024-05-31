@@ -1,11 +1,16 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { nameContext } from './UseContext'
 
-const C = () => {
+function C() {
+    const Name=useContext(nameContext)
+
   return (
     <div>
-        C
-        </div>
+      <h2 className='text-center bg-danger-subtle'>C component</h2>
+      <h2 className='text-center bg-danger-subtle'>name:{Name[0]}</h2>
+      <h2 className='text-center bg-danger-subtle'>name:{Name[1]}</h2>
+    </div>
   )
 }
 
-export default C;
+export default C

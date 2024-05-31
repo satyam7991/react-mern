@@ -11,7 +11,7 @@ const Student = () => {
     ]);
 
     return (
-        <div>
+        <div className='bg-primary-subtle'>
             {param.name ? (
                 <p>
                     Student Name: {param.name}

@@ -18,6 +18,7 @@ import UseState from "./Component2/UseState";
 import UseEffect from "./Component2/UseEffect";
 import UseReducer from "./Component2/UseReducer";
 import UseRefex from "./Component2/UseRefex";
+import UseContext from "./Component2/UseContext";
 
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
      <UseEffect/>
      <UseReducer/> 
      <UseRefex/>
+     <UseContext/>
     </>
   );
 }

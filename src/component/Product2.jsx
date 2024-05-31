@@ -1,7 +1,7 @@
 
 const Product2 = () => {
   return (
-    <div>Product2</div>
+    <div className="bg-primary-subtle">Product2</div>
   )
 }
 

@@ -15,18 +15,18 @@ const UseRefex = () => {
     };
 
     return (
-        <div>
+        <div className='bg-danger'>
             <h2>Login information</h2>
             <form>
-                <label htmlFor="user">Enter username</label>
-                <input
+                <label className='fs-4' htmlFor="user">Enter username</label>
+                <input className='bg-secondary-subtle rounded'
                     type="text"
                     name="user"
                     value={user}
                     onChange={changeUser}
                 />
-                <label htmlFor="pass">Enter password</label>
-                <input
+                <label className='fs-4' htmlFor="pass">Enter password</label>
+                <input className='bg-secondary-subtle rounded'
                     type="password"
                     name="pass"
                     value={pass}

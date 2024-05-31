@@ -19,7 +19,7 @@ const UseEffect = () => {
         console.log(name);
     },[name]);
   return (
-    <div>
+    <div className='bg-secondary'>
         <h1>UseEffect</h1>
         <h2>name:{name}</h2>
         <button className="btn btn-danger" onClick={changeName}>change name</button>

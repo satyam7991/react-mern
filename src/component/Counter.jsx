@@ -8,7 +8,7 @@ const Counter = (props) => {
         return counter.count === 0 ? "badge bg-danger m-3 rounded text-white p-3" : "badge bg-warning m-3 p-3 text-dark rounded";
     }
     return (
-        <div className='container mt-3'>
+        <div className='container mt-3 bg-primary-subtle'>
             <button className='btn btn-primary' onClick={() => decrement(counter)}>Decrement</button>
             <span className={checkCounter()}>{checkValue()}</span>
             <button className='btn btn-primary' onClick={() => increment(counter)}>Increment</button>

@@ -2,7 +2,7 @@
 
 const Product3 = () => {
   return (
-    <div>Product3</div>
+    <div className="bg-primary-subtle">Product3</div>
   )
 }
 
