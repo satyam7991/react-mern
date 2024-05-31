@@ -16,12 +16,13 @@ import Product1 from "./component/Product1";
 import Student from "./component/Student";
 import UseState from "./Component2/UseState";
 import UseEffect from "./Component2/UseEffect";
+import UseReducer from "./Component2/UseReducer";
 
 
 function App() {
   return(
     <>
-  <NavBar/>
+  {/* <NavBar/>
    <Routes>
     <Route path="/" element={<HomePage/>}/>
     <Route path="/card" element={<MyCard/>}/>
@@ -36,9 +37,10 @@ function App() {
     </Route>
     <Route path="*" element={<ErrorPage/>}/>
     
-    </Routes>
-     <UseState/>
-     <UseEffect/>
+    </Routes> */}
+     {/* <UseState/> */}
+     {/* <UseEffect/> */}
+     <UseReducer/>
     </>
   );
 }
