@@ -1,8 +1,9 @@
 import React, { useReducer } from 'react'
 
 const UseReducer = () => {
+
     const initcolor="#000000";
-    const reducer=(color,action)=>{
+    const reducer =(color,action) => {
         switch(action){
             case "red":
                 return (color="#ff0000");
